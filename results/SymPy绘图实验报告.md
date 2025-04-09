@@ -101,18 +101,18 @@ plot3d_parametric_surface(x_expr, y_expr, z_expr, (u, u_start, u_end), (v, v_sta
 ![problem1_plot](https://github.com/user-attachments/assets/1efd607c-e964-4890-bce3-6c8f7d055452)
 
 绘制结果特点：
-### 周期性：###
+### 周期性：
 
 函数 $\cos(\tan(\pi x))$ 是由 $\cos$ 和 $\tan$ 组合而成。
 $\tan(\pi x)$ 在 $x = \pm 0.5, \pm 1.5, \pm 2.5, \dots$ 处会趋于无穷大，因此 $\cos(\tan(\pi x))$ 在这些点附近会表现出快速振荡。
-### 振荡性：###
+### 振荡性：
 
 $\cos$ 函数的值域为 $[-1, 1]$，因此 $\cos(\tan(\pi x))$ 的值域也限制在 $[-1, 1]$。
 由于 $\tan(\pi x)$ 的非线性增长，$\cos(\tan(\pi x))$ 的振荡频率会随着 $x$ 的变化变得不规则。
-### 对称性：###
+### 对称性：
 
 $\tan(\pi x)$ 是奇函数，而 $\cos$ 是偶函数，因此 $\cos(\tan(\pi x))$ 是偶函数，即关于 $y$ 轴对称。
-### 间断性：###
+### 间断性：
 
 $\tan(\pi x)$ 在 $x = \pm 0.5, \pm 1.5, \dots$ 处无定义，因此 $\cos(\tan(\pi x))$ 在这些点附近会出现间断。
 ### 简要分析：
